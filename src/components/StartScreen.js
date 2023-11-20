@@ -1,0 +1,16 @@
+function StartScreen({ numqsns, dispatch }) {
+  return (
+    <div className="start">
+      <h2>Welcome to The Quiz!</h2>
+      <h3>{numqsns} questions in the test. Show your magic! 🪄</h3>
+      <button
+        className="btn btn-ui"
+        onClick={() => dispatch({ type: "start" })}
+      >
+        Let's start
+      </button>
+    </div>
+  );
+}
+
+export default StartScreen;

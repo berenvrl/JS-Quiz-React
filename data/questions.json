@@ -1,0 +1,155 @@
+{
+  "questions": [
+    {
+      "question": "Which one is the most fastest and popular JavaScript engine?",
+      "options": ["V8", "React", "Svelte", "Chakra"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which one/s can be inside of the JS engine?",
+      "options": ["Parser", "Interpreter", "Profiler", "all of them"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the difference between interpreter and compiler?",
+      "options": [
+        "Compiler is intended to convert the source code into machine code, but interpreter is not",
+        "Compiler always runs the code faster than interpreter does",
+        "Its always a good idea to pick compiler instead of interpreter",
+        "Both are intended to convert the source code into machine code, but different in their working"
+      ],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the reason of use of JIT compiler?",
+      "options": [
+        "Used to make engines faster",
+        "It is not a popular way",
+        "Used to make engines slower",
+        "non of above"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's Babel?",
+      "options": [
+        "It is an interpreter to make engine faster",
+        "It is JS compiler that takes your modern JS code and returns browser compatible JS",
+        "It is a modern programming language used in frontend applications",
+        "It is a framework for JS"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Is JS an interpreted language?",
+      "options": [
+        "Yes, JS is an interpreted language",
+        "No, JS it includes compilers",
+        "It depends on the implementation",
+        "non of above"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Whats stack overflow?",
+      "options": [
+        "It is an error that occurs when a computer program tries to use more memory space in the call stack than has been allocated to that stack",
+        "An environment in which a programming language executes",
+        "Is a javascript runtime built on chrome's V8 js engine",
+        "It is the definition area of an expression"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Whats hoisting?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "the default behavior of moving all the declarations at the top of the scope before code execution",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Whats IIFE(Immediately Invoked Function Expression)?",
+      "options": [
+        "a way to listen to an event",
+        "a way to change the UI",
+        "a way to invoke function faster",
+        "a way to hide data from the global scope as it creates its own scope"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which pair do the same job?",
+      "options": ["this-call", "bind-this", "this-apply", "apply-call"],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "..... means whats the variable access of a function when its invoked, whats in the variable environment",
+      "options": ["Rendering", "Context", "Scope", "Execution"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "....... is a reference to the object that owns current executing code, it most often determined by how a function is invoked with the value of this keyword",
+      "options": ["useState", "context", "useRef", "scope"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "...... simply a function that can take functions as an argument or a function that returns another function?",
+      "options": [
+        "IIFE",
+        "defined functions",
+        "higher order functions",
+        "invoked functions"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which one is one of the use of this keyword?",
+      "options": [
+        "binding this with new object",
+        "implicit binding by using this in an object refers automatically that object",
+        "explicit binding, using bind, apply, call",
+        "all of them"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "....Wraps code into boxed related to one another and interactions of the boxes makes maintenance and more clear code.",
+      "options": [
+        "Abstraction",
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "....has to return the same output, given the same input, and the function can not modify anything outside of itself",
+      "options": [
+        "immediately invoked functions",
+        "pure functions",
+        "arrow functions",
+        "all functions"
+      ],
+      "correctOption": 1,
+      "points": 20
+    }
+  ]
+}
